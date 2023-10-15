@@ -1,0 +1,12 @@
+{
+	"private": true,
+	"name": "project-aurora",
+	"description": "UI toolkit of accessible low-level web components",
+	"scripts": {},
+	"author": {
+		"email": "me@frontendista.cz",
+		"name": "Pavel Sušický",
+		"url": "https://frontendista.cz"
+	},
+	"license": "MIT"
+}
