@@ -3,6 +3,10 @@
     "name": "project-aurora",
     "description": "UI toolkit of accessible low-level web components",
     "scripts": {},
+    "devDependencies": {
+        "lit": "^3.0.0",
+        "typescript": "^5.2.2"
+    },
     "author": {
         "email": "me@frontendista.cz",
         "name": "Pavel Sušický",
