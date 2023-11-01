@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "✨ project-aurora",
+			"path": ".."
+		},
+		{
+			"name": "sveltekit-demo",
+			"path": "../projects/sveltekit-demo"
+		}
+	],
+	"settings": {}
+}
