@@ -1,6 +1,6 @@
 {
 	"private": true,
-	"name": "sveltekit-demo",
+	"name": "storybook",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
