@@ -1,7 +1,6 @@
 {
-	"name": "sveltekit-demo",
-	"version": "0.0.1",
 	"private": true,
+	"name": "sveltekit-demo",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
