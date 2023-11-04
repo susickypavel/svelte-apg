@@ -5,6 +5,10 @@
 			"path": ".."
 		},
 		{
+			"name": "astro-demo",
+			"path": "../projects/astro-demo"
+		},
+		{
 			"name": "sveltekit-demo",
 			"path": "../projects/sveltekit-demo"
 		}
