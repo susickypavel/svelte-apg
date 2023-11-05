@@ -1,3 +1,9 @@
+<script lang="ts">
+	import { createButton } from "./Button";
+
+	console.log(createButton);
+</script>
+
 <button>
-    <slot />
+	<slot>Button</slot>
 </button>

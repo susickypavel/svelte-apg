@@ -13,5 +13,7 @@
 			"path": "../projects/sveltekit-demo"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"eslint.validate": ["svelte", "typescript"]
+	}
 }
