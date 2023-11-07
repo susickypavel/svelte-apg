@@ -1,4 +1,4 @@
-# Project Aurora
+# Svelte APG
 
 ## 1. Local development
 
@@ -10,9 +10,9 @@
 ### 1.2 Installation
 
 ```sh
-git clone https://github.com/susickypavel/project-aurora
+git clone https://github.com/susickypavel/svelte-apg.git
 
-cd project-aurora
+cd svelte-apg
 
 pnpm install
 ```
