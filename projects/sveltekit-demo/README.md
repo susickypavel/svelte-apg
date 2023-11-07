@@ -4,6 +4,9 @@
 
 ### 1.1 Storybook
 
+> [!NOTE]
+> Storybook url: https://svelte-apg-storybook.vercel.app
+
 ```sh
 pnpm install
 
@@ -15,6 +18,9 @@ pnpm storybook:build
 ```
 
 ### 1.2 SvelteKit application
+
+> [!NOTE]
+> Application url: https://svelte-apg-app.vercel.app
 
 ```sh
 pnpm install
