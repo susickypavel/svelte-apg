@@ -3,7 +3,7 @@
 	"name": "root",
 	"description": "UI toolkit of accessible low-level svelte components",
 	"engines": {
-		"node": ">=20",
+		"node": ">=18",
 		"pnpm": ">=8"
 	},
 	"scripts": {},
