@@ -1,5 +1,15 @@
 # Svelte APG
 
+`svelte-apg` is (will be) a collection of component primitives and headless components in Svelte made with WAI-ARIA APG practises.
+
+## 0. Projects
+
+| Name        | Path                                                   | Description                                        |
+| ----------- | ------------------------------------------------------ | -------------------------------------------------- |
+| Application | [./projects/sveltekit-demo](./projects/sveltekit-demo) | Sample SvelteKit application for showcase purposes |
+| Storybook   | [./projects/sveltekit-demo](./projects/sveltekit-demo) | Storybook of implemented Svelte components         |
+| Astro       | [./projects/astro-demo](./projects/astro-demo)         | Sample Astro application for testing purposes      |
+
 ## 1. Local development
 
 ### 1.1 Prerequisites
@@ -15,20 +25,7 @@ git clone https://github.com/susickypavel/svelte-apg.git
 cd svelte-apg
 
 pnpm install
+
+# cd to project you want as mentioned above (0. Projects)
+# follow README.md in project folder
 ```
-
-### 1.3 Projects
-
-This repository is divided into several pnpm workspaces. Each workspace has its own `package.json` with its own scripts to be executed for development.
-
-#### 1.3.1 Storybook
-
-[Storybook](./projects/sveltekit-demo) for showcase of Svelte components. It's powered by SvelteKit so the project is co-located with [SvelteKit demo app](./projects/sveltekit-demo/).
-
-#### 1.3.2 SvelteKit demo
-
-[SvelteKit demo app](./projects/sveltekit-demo/) is co-located with [Storybook](./projects/storybook/). It's main purpose is to test out created components in real app.
-
-#### 1.3.3 Astro demo
-
-[Astro demo app](./projects/astro-demo/) is a simple app created with [Astro](https://astro.build/). It's main purpose is to test out created components in island architecture.
