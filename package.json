@@ -1,7 +1,7 @@
 {
 	"private": true,
 	"name": "root",
-	"description": "UI toolkit of accessible low-level svelte components",
+	"description": "UI toolkit of accessible low-level Svelte components & primitives",
 	"engines": {
 		"node": ">=18",
 		"pnpm": ">=8"
