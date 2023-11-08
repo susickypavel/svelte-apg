@@ -6,7 +6,17 @@ import Button from "./Button.svelte";
 const meta = {
 	title: "Components/Button",
 	component: Button,
-	tags: ["autodocs"]
+	tags: ["autodocs"],
+	argTypes: {
+		type: {
+			control: { type: "radio" },
+			options: ["button", "submit", "reset"],
+			description: "Behaviour of the button according to the HTML spec"
+		}
+	},
+	args: {
+		type: "button"
+	}
 } satisfies Meta<Button>;
 
 export default meta;

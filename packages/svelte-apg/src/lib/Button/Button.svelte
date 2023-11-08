@@ -1,9 +1,15 @@
+<script lang="ts" context="module">
+	export type ButtonType = "button" | "submit" | "reset";
+</script>
+
 <script lang="ts">
 	import { createButton } from "./Button";
 
-	console.log(createButton);
+	export let type: ButtonType = "button";
+
+	const { button } = createButton();
 </script>
 
-<button>
+<button use:button {type}>
 	<slot>Button</slot>
 </button>
