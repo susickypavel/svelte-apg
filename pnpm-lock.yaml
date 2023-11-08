@@ -21,22 +21,7 @@ importers:
         specifier: ^5.2.2
         version: 5.2.2
 
-  projects/astro-demo:
-    dependencies:
-      '@astrojs/svelte':
-        specifier: ^4.0.3
-        version: 4.0.3(astro@3.4.2)(svelte@4.2.2)(typescript@5.2.2)(vite@4.5.0)
-      astro:
-        specifier: ^3.4.2
-        version: 3.4.2(typescript@5.2.2)
-      svelte:
-        specifier: ^4.2.2
-        version: 4.2.2
-      svelte-apg:
-        specifier: workspace:^
-        version: link:../sveltekit-demo
-
-  projects/sveltekit-demo:
+  packages/svelte-apg:
     devDependencies:
       '@playwright/test':
         specifier: ^1.39.0
@@ -119,6 +104,60 @@ importers:
       vitest:
         specifier: ^0.32.4
         version: 0.32.4
+
+  projects/astro-demo:
+    dependencies:
+      '@astrojs/svelte':
+        specifier: ^4.0.3
+        version: 4.0.3(astro@3.4.2)(svelte@4.2.2)(typescript@5.2.2)(vite@4.5.0)
+      astro:
+        specifier: ^3.4.2
+        version: 3.4.2(typescript@5.2.2)
+      svelte:
+        specifier: ^4.2.2
+        version: 4.2.2
+      svelte-apg:
+        specifier: workspace:^
+        version: link:../../packages/svelte-apg
+
+  projects/sveltekit-demo:
+    devDependencies:
+      '@playwright/test':
+        specifier: ^1.28.1
+        version: 1.39.0
+      '@sveltejs/adapter-auto':
+        specifier: ^2.0.0
+        version: 2.1.1(@sveltejs/kit@1.27.3)
+      '@sveltejs/kit':
+        specifier: ^1.20.4
+        version: 1.27.3(svelte@4.2.2)(vite@4.5.0)
+      '@typescript-eslint/eslint-plugin':
+        specifier: ^6.0.0
+        version: 6.9.1(@typescript-eslint/parser@6.9.1)(eslint@8.53.0)(typescript@5.2.2)
+      '@typescript-eslint/parser':
+        specifier: ^6.0.0
+        version: 6.9.1(eslint@8.53.0)(typescript@5.2.2)
+      eslint:
+        specifier: ^8.28.0
+        version: 8.53.0
+      eslint-plugin-svelte:
+        specifier: ^2.30.0
+        version: 2.34.1(eslint@8.53.0)(svelte@4.2.2)
+      svelte:
+        specifier: ^4.0.5
+        version: 4.2.2
+      svelte-check:
+        specifier: ^3.4.3
+        version: 3.5.2(@babel/core@7.23.2)(postcss@8.4.31)(svelte@4.2.2)
+      tslib:
+        specifier: ^2.4.1
+        version: 2.6.2
+      typescript:
+        specifier: ^5.0.0
+        version: 5.2.2
+      vite:
+        specifier: ^4.4.2
+        version: 4.5.0(@types/node@20.8.10)
 
 packages:
 
@@ -3961,7 +4000,7 @@ packages:
   /@types/node-fetch@2.6.8:
     resolution: {integrity: sha512-nnH5lV9QCMPsbEVdTb5Y+F3GQxLSw1xQgIydrb2gSfEavRPs50FnMr+KUaa+LoPSqibm2N+ZZxH7lavZlAT4GA==}
     dependencies:
-      '@types/node': 18.18.8
+      '@types/node': 20.8.10
       form-data: 4.0.0
     dev: true
 
@@ -5927,7 +5966,7 @@ packages:
       eslint-scope: 7.2.2
       eslint-utils: 3.0.0(eslint@8.4.1)
       eslint-visitor-keys: 3.4.3
-      espree: 9.2.0
+      espree: 9.6.1
       esquery: 1.5.0
       esutils: 2.0.3
       fast-deep-equal: 3.1.3

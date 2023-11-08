@@ -1,15 +1,19 @@
 {
 	"folders": [
 		{
-			"name": "✨ project-aurora",
+			"name": "✨ root",
 			"path": ".."
 		},
 		{
-			"name": "astro-demo",
+			"name": "📦 svelte-apg",
+			"path": "../packages/svelte-apg"
+		},
+		{
+			"name": "🚀 astro-demo",
 			"path": "../projects/astro-demo"
 		},
 		{
-			"name": "sveltekit-demo",
+			"name": "🚀 sveltekit-demo",
 			"path": "../projects/sveltekit-demo"
 		}
 	],
