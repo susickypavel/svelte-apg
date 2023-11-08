@@ -7,8 +7,8 @@
 | Name        | Path                                                   | Description                                        |
 | ----------- | ------------------------------------------------------ | -------------------------------------------------- |
 | Application | [./projects/sveltekit-demo](./projects/sveltekit-demo) | Sample SvelteKit application for showcase purposes |
-| Storybook   | [./projects/sveltekit-demo](./projects/sveltekit-demo) | Storybook of implemented Svelte components         |
 | Astro       | [./projects/astro-demo](./projects/astro-demo)         | Sample Astro application for testing purposes      |
+| Storybook   | [./packages/svelte-apg](./packages/svelte-apg)         | Storybook of implemented Svelte components         |
 
 ## 1. Local development
 
