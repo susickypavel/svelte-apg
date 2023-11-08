@@ -19,9 +19,6 @@ pnpm storybook:build
 
 ### 1.2 SvelteKit application
 
-> [!NOTE]
-> Application url: https://svelte-apg-app.vercel.app
-
 ```sh
 pnpm install
 

@@ -4,11 +4,11 @@
 
 ## 0. Projects
 
-| Name        | Path                                                   | Description                                        |
-| ----------- | ------------------------------------------------------ | -------------------------------------------------- |
-| Application | [./projects/sveltekit-demo](./projects/sveltekit-demo) | Sample SvelteKit application for showcase purposes |
-| Astro       | [./projects/astro-demo](./projects/astro-demo)         | Sample Astro application for testing purposes      |
-| Storybook   | [./packages/svelte-apg](./packages/svelte-apg)         | Storybook of implemented Svelte components         |
+| Name        | Path                                                   | Description                                        | Port |
+| ----------- | ------------------------------------------------------ | -------------------------------------------------- | ---- |
+| Application | [./projects/sveltekit-demo](./projects/sveltekit-demo) | Sample SvelteKit application for showcase purposes | 5055 |
+| Astro       | [./projects/astro-demo](./projects/astro-demo)         | Sample Astro application for testing purposes      | 6000 |
+| Storybook   | [./packages/svelte-apg](./packages/svelte-apg)         | Storybook of implemented Svelte components         | 5050 |
 
 ## 1. Local development
 
