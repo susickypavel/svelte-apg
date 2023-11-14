@@ -8,6 +8,8 @@ export default defineConfig({
 		host: true
 	},
 	test: {
-		include: ["src/**/*.{test,spec}.{js,ts}"]
+		globals: true,
+		include: ["src/**/*.{test,spec}.{js,ts}"],
+		environment: "happy-dom"
 	}
 });

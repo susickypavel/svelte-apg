@@ -1,5 +1,9 @@
 <script>
 	import Button from "$lib/Button/Button.svelte";
+
+	function handleClick() {
+		console.log("Click");
+	}
 </script>
 
-<Button>Hello, World!</Button>
+<Button on:click={handleClick}>Hello, World!</Button>
