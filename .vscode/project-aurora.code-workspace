@@ -13,6 +13,10 @@
 			"path": "../projects/astro-demo"
 		},
 		{
+			"name": "🚀 docs",
+			"path": "../projects/docs"
+		},
+		{
 			"name": "🚀 sveltekit-demo",
 			"path": "../projects/sveltekit-demo"
 		}
